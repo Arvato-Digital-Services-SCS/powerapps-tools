@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "Components/PCF/AzureMaps/data-set/",
+			"problemMatcher": [
+				"$func-dotnet-watch"
+			],
+			"group": "build",
+			"label": "npm: build - Components/PCF/AzureMaps/data-set",
+			"detail": "pcf-scripts build",
+			"isBackground": true
+		}
+	]
+}
